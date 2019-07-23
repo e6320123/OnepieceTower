@@ -1,0 +1,55 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-size: 0.85em;
+     font-weight: bold;
+     font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+ }
+
+ .left {
+     position: relative;
+     width: 50%;
+     height: 100%;
+     background-color: aqua;
+     background-image: url("../img/foreign_parts_left.png");
+     background-repeat: no-repeat;
+     position: fixed;
+
+
+ }
+
+ .right {
+     position: absolute;
+     left: 50%;
+     /* background-color: black; */
+     background-image: url("../img/bg_dot.jpg");
+     /* background-repeat: initial; */
+     padding: 50px 80px 10px 80px;
+     /* border: 2px solid red; */
+
+ }
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid gray;
+    padding: 15px;
+    text-align: center;
+}
+/* tr{
+    border: 1px solid gray;
+} */
+
+#foot{
+    position: absolute;  
+    /* border: 2px solid red;  */
+    /* bottom:10px; */
+     padding: 30px 0px 20px 0px;  
+    /* margin: 0px 0px; */
+}
+#opa:hover {
+    opacity: 0.7;
+}
+
+
